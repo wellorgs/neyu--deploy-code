@@ -1,0 +1,30 @@
+# ✅ Ignore virtual environments
+venv/
+env/
+ENV/
+
+# ✅ Ignore node modules (not needed for Python backend)
+node_modules/
+
+
+
+# ✅ Ignore Git files
+.git/
+.gitignore
+
+# ✅ Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ✅ Ignore local environment and config files
+.env
+*.log
+*.db
+*.sqlite
+*.bak
+*.old
+.DS_Store
+
+# ❗ DO NOT ignore .json (you need it for your backend)
